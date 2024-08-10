@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "digit-bot"
+version = "0.1.0"
+description = ""
+authors = ["Mark Andrey <markandreym@gmail.com>"]
+readme = "README.md"
+packages = [{include = "digit_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^21.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
